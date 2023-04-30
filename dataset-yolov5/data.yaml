@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['brown spot', 'leaf blast', 'leaf blight', 'tungro']
+
+roboflow:
+  workspace: project
+  project: leaf-rice-disease
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/leaf-rice-disease/dataset/1
